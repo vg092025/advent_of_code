@@ -1,0 +1,31 @@
+# Erlang compiled files
+*.beam
+*.app
+
+# Erlang crash dumps
+erl_crash.dump
+
+# Erlang temporary files
+*.swp
+*.swo
+*~
+
+# Rebar3 build artifacts
+_build/
+rebar3.crashdump
+
+# Dialyzer artifacts
+.dialyzer_plt
+*.plt
+
+# Editor artifacts
+.vscode/
+.idea/
+*.iml
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Erlang shell history
+.erlang.cookie
